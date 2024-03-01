@@ -1,4 +1,3 @@
-
 def __main__() -> None:
     opcion = None
     while opcion != 0:
@@ -35,7 +34,7 @@ def obtener_opcion() -> int:
 
 def saludo_personalizado() -> None:
     nombre = input("Ingrese su nombre: ")
-    print(f"Hola, {nombre}! Bienvenido.")
+    print(f"🤗Hola, {nombre}! Bienvenido.✨✨")
 
 
 if __name__ == '__main__':
