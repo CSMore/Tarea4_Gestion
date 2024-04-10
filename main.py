@@ -21,7 +21,7 @@ def procesar_opcion(opcion) -> None:
     if opcion == 1:
         saludo_personalizado()
     elif opcion == 2:
-        print("contar_numeros()")
+        contar_numeros()
     elif opcion == 3:
         calculadora_basica()
     elif opcion != 0:
@@ -35,6 +35,13 @@ def obtener_opcion() -> int:
 def saludo_personalizado() -> None:
     nombre = input("Ingrese su nombre: ")
     print(f"🤗Hola, {nombre}! Bienvenido.✨✨")
+
+
+def contar_numeros() -> None:
+    numero = int(input("Ingrese un número: "))
+    for i in range(1, numero + 1):
+        print(i)
+
 
 def calculadora_basica() -> None:
     print("Seleccione una operación:")
